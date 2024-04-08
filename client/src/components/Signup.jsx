@@ -78,7 +78,7 @@ function Signup(props) {
             </div>
             <div className="submit-container flex flex-col items-center">
               <div className="submit-btn mb-4 w-full px-12">
-                <button type="submit" disabled = {isSubmitting} className=" w-full tracking-widest text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{ isSubmitting ? "Please wait.." :"Login"}</button>
+                <button type="submit" disabled = {isSubmitting} className=" w-full tracking-widest text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">{ isSubmitting ? "Please wait.." :"Signup"}</button>
               </div>
               <div>
                 <p>Already have an account ?<span className='cursor-pointer text-blue-700 hover:underline'> <Link to="/login">Login here.. </Link> </span></p>
